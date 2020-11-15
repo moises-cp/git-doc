@@ -1,6 +1,14 @@
 # Pull
 
-## Pull unrelated history to force merge
+## Unrelated History
+
+Error when pulling
+
+```
+fatal: refusing to merge unrelated histories
+```
+
+Solution
 
 ```
 git pull origin main --allow-unrelated-histories
