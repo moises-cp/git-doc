@@ -11,8 +11,7 @@ fatal: refusing to merge unrelated histories
 Solution
 
 - Add the flag `--allow-unrelated-histories`
-
-Example
+- Example
 
 ```
 git pull origin main --allow-unrelated-histories
