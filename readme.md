@@ -1,3 +1,7 @@
+[TOC]
+
+
+
 ## Branch
 
 ### Rename Branch
@@ -35,7 +39,7 @@ git config [config file location] [property] [value]
 
 - `[value]`
 
-  - Ex. `value`
+  - Ex. `'value'`
 
 <br>
 
