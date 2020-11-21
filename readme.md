@@ -26,7 +26,7 @@ git config [config file location] [property] [value]
 
 - `[config file location]`
 
-  <img src="./asset/img/config-file-location.jpg" alt="Git config file location options" style="zoom:80%;" />
+  <img src="./asset/img/config-file-location-500w-min.jpg" alt="Git config file location options" style="zoom:80%;" />
 
 - `[property]`
 
