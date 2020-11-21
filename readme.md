@@ -3,12 +3,12 @@
 ### Rename Branch
 
 ````bash
-git branch -m old-name new-name
+git branch -m [old branch name] [new branch name]
 ````
 
 <br><br>
 
-## Configuration
+## Config
 
 ### Set or update Git user email
 
@@ -24,10 +24,10 @@ git config --global user.email 'my-new-email@company.com'
 
 ## Pull
 
-### Allow pulling unrelated history from origin
+### Allow pulling unrelated history from remote branch
 
 ```bash
-git pull origin main --allow-unrelated-histories
+git pull [remote name] [branch name] --allow-unrelated-histories
 ```
 
 
@@ -38,7 +38,7 @@ git pull origin main --allow-unrelated-histories
 
 ## Remote
 
-- Add remote repo
+### Add remote repo
 
 - `[remote name]` can be any name.  By convention it is called origin.
 
