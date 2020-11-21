@@ -10,7 +10,15 @@ git branch -m [old branch name] [new branch name]
 
 ## Config
 
-### Set or update Git user email
+### Display Configuration Properties and Values
+
+```bash
+git config --list
+```
+
+<br>
+
+### Set or update Git User Email Globally
 
 ```bash
 git config --global user.email 'my-new-email@company.com'
