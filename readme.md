@@ -1,17 +1,20 @@
-# Branch
+## Branch
 
-| Command                           | Description   |
-| --------------------------------- | ------------- |
-| `git branch -m old-name new-name` | Rename branch |
-|                                   |               |
+### Rename Branch
+
+````bash
+git branch -m old-name new-name
+````
 
 <br><br>
 
 ## Configuration
 
-| Command                                                     | Description                  |
-| ----------------------------------------------------------- | ---------------------------- |
-| `git config --global user.email 'my-new-email@company.com'` | Set or update Git user email |
+### Set or update Git user email
+
+```bash
+git config --global user.email 'my-new-email@company.com'
+```
 
 
 
@@ -21,9 +24,11 @@
 
 ## Pull
 
-| Command                                            | Description                                 |
-| -------------------------------------------------- | ------------------------------------------- |
-| `git pull origin main --allow-unrelated-histories` | Allow pulling unrelated history from origin |
+### Allow pulling unrelated history from origin
+
+```bash
+git pull origin main --allow-unrelated-histories
+```
 
 
 
@@ -31,12 +36,14 @@
 
 
 
-## Repository
+## Remote
 
+- Add remote repo
 
+- `[remote name]` can be any name.  By convention it is called origin.
 
-| Command                                     | Description                                                  |
-| ------------------------------------------- | ------------------------------------------------------------ |
-| `git init`                                  | Initialize/create a repository                               |
-| `git remote add [remote name] [repo url]  ` | - Add remote repo. `[remote name]` can be any name.  By convention it is called origin. |
+  ```bash
+  git remote add [remote name] [repo url] 
+  ```
 
+  
