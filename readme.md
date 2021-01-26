@@ -1,8 +1,24 @@
+# Table of Content
 
 
-[TOC]
 
+- [Branch](#branch)
+  * [Rename Branch](#rename-branch)
+- [Config](#config)
+  * [Config Files](#config-files)
+    + [Location](#location)
+  * [Display Configuration Properties and Values](#display-configuration-properties-and-values)
+  * [Set or update Properties](#set-or-update-properties)
+    + [Examples](#examples)
+- [Credentials](#credentials)
+  * [Storage](#storage)
+    + [File (store)](#file--store-)
+- [Pull](#pull)
+  * [Allow pulling unrelated history from remote branch](#allow-pulling-unrelated-history-from-remote-branch)
+- [Remote](#remote)
+  * [Add remote repo](#add-remote-repo)
 
+<br>
 
 ## Branch
 
