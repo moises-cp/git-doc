@@ -16,10 +16,9 @@ git branch -m [old branch name] [new branch name]
 
 #### Location
 
-Windows
-
-- Global Path:  `/c/user/username/.gitconfig`
-- Local Path:  `./` (root of the project)
+- Windows
+  - Global Path:  `/c/user/username/.gitconfig`
+  - Local Path:  `./` (root of the project)
 
 
 
