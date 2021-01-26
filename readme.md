@@ -1,3 +1,5 @@
+
+
 ## Branch
 
 ### Rename Branch
@@ -9,6 +11,17 @@ git branch -m [old branch name] [new branch name]
 <br><br>
 
 ## Config
+
+### Config Files
+
+#### Location
+
+Windows
+
+- Global Path:  `/c/user/username/.gitconfig`
+- Local Path:  `./` (root of the project)
+
+
 
 ### Display Configuration Properties and Values
 
@@ -57,7 +70,20 @@ git config --global user.email 'my-new-email@company.com'
 
 <br><br>
 
+## Credentials
 
+### Storage
+
+#### File (store)
+
+- Description
+  - The “store” mode saves the credentials to a plain-text file on disk, and they never expire. This means that until you change your password for the Git host, you won’t ever have to type in your credentials again. The downside of this approach is that your passwords are stored in cleartext in a plain file in your home directory.  [Source](https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage)
+- Resources
+  - [Git Documentation](https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage)
+- Set the file that will be used to store the credentials
+  - `git config --global credential.helper 'store --file ~/.gitcredentials'`
+
+<br><br>
 
 ## Pull
 
