@@ -37,7 +37,7 @@ git branch -m [old branch name] [new branch name]
 - Global Path:  `/c/user/username/.gitconfig`
 - Local Path:  `./` (root of the project)
 
-
+<br>
 
 ### Display Configuration Properties and Values
 
