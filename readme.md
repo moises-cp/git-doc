@@ -102,6 +102,10 @@ git pull [remote name] [branch name] --allow-unrelated-histories
 
 ### Add remote repo
 
+**Prerequisite**
+
+- Git needs to be initialized.
+
 ```bash
 git remote add [remote name] [repo url] 
 ```
