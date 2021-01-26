@@ -1,22 +1,20 @@
 # Table of Content
 
-
-
-- [Branch](#branch)
-  * [Rename Branch](#rename-branch)
-- [Config](#config)
-  * [Config Files](#config-files)
-    + [Location](#location)
-  * [Display Configuration Properties and Values](#display-configuration-properties-and-values)
-  * [Set or update Properties](#set-or-update-properties)
-    + [Examples](#examples)
-- [Credentials](#credentials)
-  * [Storage](#storage)
-    + [File (store)](#file--store-)
-- [Pull](#pull)
-  * [Allow pulling unrelated history from remote branch](#allow-pulling-unrelated-history-from-remote-branch)
-- [Remote](#remote)
-  * [Add remote repo](#add-remote-repo)
+* [Branch](#branch)
+  + [Rename Branch](#rename-branch)
+* [Config](#config)
+  + [Config Files](#config-files)
+    - [Windows](#windows)
+  + [Display Configuration Properties and Values](#display-configuration-properties-and-values)
+  + [Set or Update Properties](#set-or-update-properties)
+    - [Examples](#examples)
+* [Credentials](#credentials)
+  + [Storage](#storage)
+    - [File](#file)
+* [Pull](#pull)
+  + [Allow pulling unrelated history from remote branch](#allow-pulling-unrelated-history-from-remote-branch)
+* [Remote](#remote)
+  + [Add remote repo](#add-remote-repo)
 
 <br>
 
@@ -34,11 +32,10 @@ git branch -m [old branch name] [new branch name]
 
 ### Config Files
 
-#### Location
+#### Windows
 
-- Windows
-  - Global Path:  `/c/user/username/.gitconfig`
-  - Local Path:  `./` (root of the project)
+- Global Path:  `/c/user/username/.gitconfig`
+- Local Path:  `./` (root of the project)
 
 
 
@@ -50,7 +47,7 @@ git config --list
 
 <br>
 
-### Set or update Properties
+### Set or Update Properties
 
 ```bash
 git config [config file location] [property] [value]		
@@ -93,7 +90,7 @@ git config --global user.email 'my-new-email@company.com'
 
 ### Storage
 
-#### File (store)
+#### File
 
 - Description
   - The “store” mode saves the credentials to a plain-text file on disk, and they never expire. This means that until you change your password for the Git host, you won’t ever have to type in your credentials again. The downside of this approach is that your passwords are stored in cleartext in a plain file in your home directory.  [Source](https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage)
