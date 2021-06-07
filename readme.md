@@ -53,6 +53,11 @@ git config --list
 git config [config file location] [property] [value]		
 ```
 
+Example
+```
+git config --local user.email username@company.com
+```
+
 - `[config file location]`
 
   <img src="./asset/img/config-file-location-500w-min.jpg" alt="Git config file location options" style="zoom:80%;" />
