@@ -18,6 +18,14 @@
 
 <br>
 
+# Quick Commands
+
+|Command|Description|
+|:--:|:--:|
+|`git restore <file>`|Remove file from untracked|
+<br>
+
+
 ## Branch
 
 ### Rename Branch
